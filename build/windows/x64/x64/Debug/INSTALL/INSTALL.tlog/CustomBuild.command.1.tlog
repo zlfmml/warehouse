@@ -1,0 +1,10 @@
+^E:\KULIAH\SMT 5\MOBPRO\IRGISAD\BUILD\WINDOWS\X64\CMAKEFILES\3D0FFFF2270E1553E1249D9141FB2E35\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

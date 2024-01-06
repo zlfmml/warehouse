@@ -1,0 +1,10 @@
+^E:\KULIAH\SMT 5\MOBPRO\IRGISAD\BUILD\WINDOWS\X64\CMAKEFILES\3D0FFFF2270E1553E1249D9141FB2E35\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SE:/kuliah/SMT 5/mobpro/irgisad/windows" "-BE:/kuliah/SMT 5/mobpro/irgisad/build/windows/x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/kuliah/SMT 5/mobpro/irgisad/build/windows/x64/irgisad.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

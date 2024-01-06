@@ -1,0 +1,1 @@
+ E:\\kuliah\\SMT\ 5\\irgisad\\.dart_tool\\flutter_build\\28e70dc74bdf075e3a8391706410fa33\\native_assets.yaml: 

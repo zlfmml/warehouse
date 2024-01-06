@@ -1,0 +1,1 @@
+ E:\\kuliah\\SMT\ 5\\mobpro\\irgisad\\.dart_tool\\flutter_build\\bfe7e412068555dadc483d3483d07142\\native_assets.yaml: 

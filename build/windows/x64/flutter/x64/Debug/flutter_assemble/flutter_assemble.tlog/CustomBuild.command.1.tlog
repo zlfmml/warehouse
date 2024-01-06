@@ -1,0 +1,28 @@
+^E:\KULIAH\SMT 5\MOBPRO\IRGISAD\BUILD\WINDOWS\X64\CMAKEFILES\A35CEFEED5FED9B787AB59ACA350165F\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter "PROJECT_DIR=E:\kuliah\SMT 5\mobpro\irgisad" FLUTTER_ROOT=C:\src\flutter "FLUTTER_EPHEMERAL_DIR=E:\kuliah\SMT 5\mobpro\irgisad\windows\flutter\ephemeral" "PROJECT_DIR=E:\kuliah\SMT 5\mobpro\irgisad" "FLUTTER_TARGET=E:\kuliah\SMT 5\mobpro\irgisad\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC81NGE3MTQ1MzAzZjBkZDlkMGY5MzQyNGEyZTEyNGViNGFiZWY1MDkxLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=E:\kuliah\SMT 5\mobpro\irgisad\.dart_tool\package_config.json" C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\KULIAH\SMT 5\MOBPRO\IRGISAD\BUILD\WINDOWS\X64\CMAKEFILES\52369B116BA9705DE00092F7B1A3D0F2\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\KULIAH\SMT 5\MOBPRO\IRGISAD\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SE:/kuliah/SMT 5/mobpro/irgisad/windows" "-BE:/kuliah/SMT 5/mobpro/irgisad/build/windows/x64" --check-stamp-file "E:/kuliah/SMT 5/mobpro/irgisad/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

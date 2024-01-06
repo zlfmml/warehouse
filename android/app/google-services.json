@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "555506100041",
+    "project_id": "warehouse-d91f8",
+    "storage_bucket": "warehouse-d91f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555506100041:android:1ea5788abc234dfbd4dc98",
+        "android_client_info": {
+          "package_name": "com.example.irgisad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlC6yrn8vQvWMIQPAp9JeDXbwgBah_0SY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\kuliah\SMT 5\mobpro\irgisad\build\windows\CMakeFiles\11bf5f338ce04b65d6c74775ec9b9fbf\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{35F0603C-D6D3-3323-9322-062BF82954F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
